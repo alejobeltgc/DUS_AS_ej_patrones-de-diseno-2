@@ -8,13 +8,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Ejercicio1\" />
-    <None Remove="Ejercicio1\Strategies\" />
-    <None Remove="Ejercicio1\Interface\" />
+    <None Remove="Strategy\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Ejercicio1\" />
-    <Folder Include="Ejercicio1\Strategies\" />
-    <Folder Include="Ejercicio1\Interface\" />
+    <Folder Include="Strategy\" />
   </ItemGroup>
 </Project>

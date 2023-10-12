@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Adapter\" />
+    <None Remove="Adapter\Interfaces\" />
+    <None Remove="Adapter\Services\" />
+    <None Remove="Adapter\Adapters\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Adapter\" />
+    <Folder Include="Adapter\Interfaces\" />
+    <Folder Include="Adapter\Services\" />
+    <Folder Include="Adapter\Adapters\" />
+  </ItemGroup>
+</Project>
